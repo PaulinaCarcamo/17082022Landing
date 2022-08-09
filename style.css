@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.100);
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+
+.photomain{
+    background-image: url(https://i.pinimg.com/originals/f3/95/86/f395861a11d023b753bf24517a6e9a43.jpg);
+    background-size: cover;
+    background-position: 80% center;
+
+}
+
+.jumbotron{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}

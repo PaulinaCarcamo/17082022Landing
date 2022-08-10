@@ -23,5 +23,37 @@
     background-color: rgba(0, 0, 0, 0.100);
 }
 
+.lastsection{
+    background-color: rgba(0, 0, 0, 0.100);
+}
 
+footer a{
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+}
+
+footer a:hover{
+color: brown;
+}
+
+@media screen and (max-width: 400px) {
+    .photomain{
+        background-position: 80% left;
+
+    }  
+}
+
+.slides {
+    max-width: 80vh;
+    overflow: hidden;
+}
+
+.carousel-caption{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px #ffc2c2;
+}
+
+footer ul{
+list-style-type: none;
+}
 

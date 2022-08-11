@@ -59,9 +59,22 @@
     border-radius: 5px;
 }
 
-.formsection{
+.moreinfosection{
     background-color: rgba(0, 0, 0, 0.100);
 }
+
+.moreinfosection .container{
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .moreinfosection .container {
+        padding-top: 10%;
+        width: 100%;
+    }
+  }
 
 footer a{
     color: rgb(55, 55, 55);
@@ -75,3 +88,14 @@ color: firebrick;
 footer ul{
 list-style-type: none;
 }
+
+.footerlogo{
+    text-align: end;
+}
+
+@media screen and (max-width: 576px) {
+    footer .footerlogo {
+        padding: 5%;
+        text-align: center;
+    }
+  }

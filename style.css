@@ -9,11 +9,11 @@
 }
 
 .nav-link {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .nav-link:hover {
-    color: firebrick;
+    color: rgb(181, 35, 35);
 }
 
 .jumbotronbg {
@@ -42,7 +42,7 @@
 
 .badge {
     margin-top: 4px;
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.43);
     font-weight: normal;
     font-size: small;
@@ -53,7 +53,7 @@
 }
 
 .carousel-caption mark {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.52);
     border-radius: 5px;
 }
@@ -81,7 +81,7 @@ footer a {
 }
 
 footer a:hover {
-    color: firebrick;
+    color: rgb(181, 35, 35);
 }
 
 footer ul {
